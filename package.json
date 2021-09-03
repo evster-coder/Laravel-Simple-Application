@@ -10,9 +10,17 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.10.0",
+        "@vue/compiler-sfc": "^3.2.7",
         "axios": "^0.21",
+        "bootstrap": "^5.0.0-beta3",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.1.14",
+        "vue-loader": "^16.5.0"
+    },
+    "dependencies": {
+        "vue": "^3.2.7",
+        "vue-router": "^4.0.11"
     }
 }
